@@ -1,0 +1,16 @@
+name: 📅 Schedule Workflow Dispatch
+on:
+  schedule:
+    - cron: '*/1 * * * *' 
+    
+jobs: 
+  Helloword:
+    runs-on: ubuntu-latest
+    steps:
+      - name: printer
+        run: echo "The curent time is ${date}"
+  
+  
+  
+  
+  
