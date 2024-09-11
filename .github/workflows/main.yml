@@ -9,7 +9,7 @@ jobs:
   my_first:
     runs-on: ubuntu_latest
     steps:
-    - uses: actions/checkout@v4
+    - name: hallo world 
       run: echo 'hallo world'
       
     
