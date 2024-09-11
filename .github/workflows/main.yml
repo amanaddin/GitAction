@@ -1,0 +1,15 @@
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+
+jobs:
+  my_first:
+    runs-on: ubuntu_latest
+    steps:
+    - uses: actions/checkout@v4
+      run: echo 'hallo world'
+      
+    
