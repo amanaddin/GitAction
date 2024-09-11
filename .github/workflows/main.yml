@@ -10,6 +10,8 @@ jobs:
     runs-on: Ubuntu-latest
     steps:
     - name: hallo world 
-      run: echo 'hallo world'
+    - uses: actions/checkout@v4
+    - run: ls
+    - run: echo 'hallo world'
       
     
