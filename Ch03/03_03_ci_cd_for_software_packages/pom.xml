@@ -18,7 +18,7 @@
       <name>GitHub Packages</name>
 
       
-      <url>https://maven.pkg.github.com/amanaddin/GitAction</url>
+      <url>https://maven.pkg.github.com/amanaddin/GitAction/blob/main/Ch03/03_03_ci_cd_for_software_packages</url>
 
     </repository>
   </distributionManagement>
